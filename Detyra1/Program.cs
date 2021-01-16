@@ -32,8 +32,8 @@ namespace MaxSubArrayDivideAndConquer
             return left_sum + right_sum;
         }
 
-        //Rasti me i mire => h - l = 1, Big Omega = O(1)
-        //Rasti me i keq => h - l = n, Big O = O(n log(n)) kur zgjidhja e kalon mesin
+        //Rasti me i mire => h - l = 1, Big Omega = O(1).
+        //Rasti me i keq => h - l = n, Big O = O(n log(n)) kur zgjidhja e kalon mesin.
         //Kompleksiteti hapsinore => n + n/2 + n/4 + n/2^i, ku i => thellesia e perçarjes. 
         static int maxSubArraySum(int[] array, int l, int h)
         {
